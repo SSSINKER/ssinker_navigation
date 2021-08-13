@@ -1,0 +1,12 @@
+<launch>
+    <include file="$(find nmea_navsat_driver)/launch/nmea_serial_driver.launch">
+    </include>
+    <include file="$(find ydlidar)/launch/lidar_with_tf.launch">
+    </include>
+    <node pkg="ebimu_odometry" type="imu_odom_pub_v1.py" name="imu_odom_publisher" output="screen"/>
+        <param name="port" value="/dev/ttyUSB1" type="string"/>
+        <param name="baud" value="115200" type="int"/>
+    <node name="serial_node" pkg="rosserial_python" type="serial_node.py"/>
+        <param name="port" value="/dev/ttyACM0" type="string"/>
+        <param name="baud" value="57600" type="int"/>
+</launch> 
