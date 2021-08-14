@@ -12,6 +12,6 @@
     <rosparam file="$(find kaboat_2dnav)/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find kaboat_2dnav)/global_costmap_params.yaml" command="load" /> 
     <rosparam file="$(find kaboat_2dnav)/base_local_planner_params.yaml" command="load" />
- </node>
+   </node>
 
 </launch> 

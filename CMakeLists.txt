@@ -11,7 +11,6 @@ find_package(catkin REQUIRED COMPONENTS
   ebimu_odometry
   move_base
   nmea_navsat_driver
-  ydlidar_ros_driver
 )
 
 ## System dependencies are found with CMake's conventions
