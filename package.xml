@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>kaboat_2dnav</name>
+  <name>ssinker_navigation</name>
   <version>0.0.0</version>
-  <description>The kaboat_2dnav package</description>
+  <description>The ssinker_navigation package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
