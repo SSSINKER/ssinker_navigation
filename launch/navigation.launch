@@ -12,6 +12,7 @@
     <rosparam file="$(find ssinker_navigation)/params/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find ssinker_navigation)/params/global_costmap_params.yaml" command="load" /> 
     <rosparam file="$(find ssinker_navigation)/params/base_local_planner_params.yaml" command="load" />
+    <rosparam name="recovery_behavior_enabled" type="bool" value="false" />
    </node>
 
 </launch> 

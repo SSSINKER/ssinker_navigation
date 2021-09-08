@@ -1,7 +1,8 @@
 TrajectoryPlannerROS:
   max_vel_x: 30 # real velocity/accel value?
   min_vel_x: 0
-  max_vel_theta: 1.0
+  max_vel_theta: 1.0 # max/min angular velocities are absolute values
+  min_vel_theta: 0.0
   min_in_place_vel_theta: 0.0 # this robot cannot rotate in-place
 
   acc_lim_theta: 1.0
