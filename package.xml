@@ -49,18 +49,18 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
   <build_depend>ebimu_odometry</build_depend>
   <build_depend>move_base</build_depend>
   <build_depend>nmea_navsat_driver</build_depend>
-  <build_depend>ydlidar_ros_driver</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>ebimu_odometry</build_export_depend>
   <build_export_depend>move_base</build_export_depend>
   <build_export_depend>nmea_navsat_driver</build_export_depend>
-  <build_export_depend>ydlidar_ros_driver</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
   <exec_depend>ebimu_odometry</exec_depend>
   <exec_depend>move_base</exec_depend>
   <exec_depend>nmea_navsat_driver</exec_depend>
-  <exec_depend>ydlidar_ros_driver</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
